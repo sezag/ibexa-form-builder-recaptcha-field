@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AdamWojs\EzPlatformFormBuilderRecaptchaBundle\DependencyInjection;
+namespace AdamWojs\IbexaFormBuilderRecaptchaBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
@@ -11,7 +11,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 use Symfony\Component\Yaml\Yaml;
 
-final class EzPlatformFormBuilderRecaptchaExtension extends Extension implements PrependExtensionInterface
+final class IbexaFormBuilderRecaptchaExtension extends Extension implements PrependExtensionInterface
 {
     public function load(array $configs, ContainerBuilder $container): void
     {

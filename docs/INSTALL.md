@@ -1,14 +1,14 @@
-# EzPlatformFormBuilderRecaptchaBundle
+# IbexaFormBuilderRecaptchaBundle
 
 ## Installation
 
 ### Get the bundle using composer
 
-Add EzPlatformFormBuilderRecaptchaBundle by running this command from the terminal at the root of
+Add IbexaFormBuilderRecaptchaBundle by running this command from the terminal at the root of
 your symfony project:
 
 ```bash
-composer require adamwojs/ezplatform-form-builder-recaptcha-field
+composer require adamwojs/ibexa-form-builder-recaptcha-field
 ```
 
 ## Enable the bundle
@@ -20,7 +20,7 @@ To start using the bundle, register the bundle in your application's kernel clas
 return [
     // ...
     EWZ\Bundle\RecaptchaBundle\EWZRecaptchaBundle::class => ['all' => true],
-    AdamWojs\EzPlatformFormBuilderRecaptchaBundle\EzPlatformFormBuilderRecaptchaBundle::class => ['all' => true],
+    AdamWojs\IbexaFormBuilderRecaptchaBundle\IbexaFormBuilderRecaptchaBundle::class => ['all' => true],
     // ...
 ];
 ```

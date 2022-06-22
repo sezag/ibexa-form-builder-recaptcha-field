@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace AdamWojs\EzPlatformFormBuilderRecaptcha\FormBuilder\Field\Mapper;
+namespace AdamWojs\IbexaFormBuilderRecaptcha\FormBuilder\Field\Mapper;
 
-use EzSystems\EzPlatformFormBuilder\FieldType\Field\Mapper\GenericFieldMapper;
-use EzSystems\EzPlatformFormBuilder\FieldType\Model\Field;
+use Ibexa\FormBuilder\FieldType\Field\Mapper\GenericFieldMapper;
+use Ibexa\Contracts\FormBuilder\FieldType\Model\Field;
 use EWZ\Bundle\RecaptchaBundle\Validator\Constraints as Recaptcha;
 
 final class ReCaptchaMapper extends GenericFieldMapper

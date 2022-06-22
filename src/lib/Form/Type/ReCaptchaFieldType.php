@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace AdamWojs\EzPlatformFormBuilderRecaptcha\Form\Type;
+namespace AdamWojs\IbexaFormBuilderRecaptcha\Form\Type;
 
 use EWZ\Bundle\RecaptchaBundle\Form\Type\EWZRecaptchaType;
-use EzSystems\EzPlatformFormBuilder\Form\Type\Field\AbstractFieldType;
+use Ibexa\FormBuilder\Form\Type\Field\AbstractFieldType;
 
 final class ReCaptchaFieldType extends AbstractFieldType
 {

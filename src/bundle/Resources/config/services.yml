@@ -4,9 +4,9 @@ services:
         autoconfigure: true
         public: false
 
-    AdamWojs\EzPlatformFormBuilderRecaptcha\FormBuilder\Field\Mapper\ReCaptchaMapper:
+    AdamWojs\IbexaFormBuilderRecaptcha\FormBuilder\Field\Mapper\ReCaptchaMapper:
         arguments:
             $fieldIdentifier: 'recaptcha'
-            $formType: 'AdamWojs\EzPlatformFormBuilderRecaptcha\Form\Type\ReCaptchaFieldType'
+            $formType: 'AdamWojs\IbexaFormBuilderRecaptcha\Form\Type\ReCaptchaFieldType'
         tags:
-            - { name: ezplatform.form_builder.field_mapper }
+            - { name: ibexa.form_builder.field.mapper }
